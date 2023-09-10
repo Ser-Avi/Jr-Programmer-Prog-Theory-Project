@@ -346,6 +346,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Blue.cs"
 "Assets/Scripts/GreenAndYellow.cs"
+"Assets/Scripts/MenuManager.cs"
 "Assets/Scripts/Red.cs"
 "Assets/Scripts/Shape.cs"
 -langversion:9.0
