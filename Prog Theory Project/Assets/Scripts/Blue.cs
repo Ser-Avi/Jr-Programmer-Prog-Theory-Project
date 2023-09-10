@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Blue : Shape
+public class Blue : Shape   //INHERITANCE
 {
     string definition = "reducing duplicate code by “abstracting out” repeated details or information";
     protected override void OnMouseOver()

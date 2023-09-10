@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Shape : MonoBehaviour
 {
+    //ENCAPSULATION
     [SerializeField] protected string Name {get; set;}
     [SerializeField] protected string color = "None";
     [SerializeField] protected Vector3 rotation;
@@ -16,10 +17,11 @@ public class Shape : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             displayText.text = $"{Name}, {color}";
-            Rotate();
+            Rotate();   //ABSTRACTION
         }
     }
 
+    //POLYMORPHISM
     protected virtual void Rotate()
     {
         Rigidbody shapeRb = this.GetComponent<Rigidbody>();
